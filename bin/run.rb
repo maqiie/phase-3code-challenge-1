@@ -6,21 +6,21 @@ def reload
 end
 
 # authors
-author1 = Author.new("John Doe")
-author2 = Author.new("Jane Doe")
-author3 = Author.new("Anne Smith")
+author1 = Author.new("mwenda muthaura")
+author2 = Author.new("kiptrotich dominik")
+author3 = Author.new("amin ")
 
 # magazines
-magazine1 = Magazine.new("Vogue", "Fashion")
+magazine1 = Magazine.new("the standard", "news")
 magazine2 = Magazine.new("Wired", "Technology")
 magazine3 = Magazine.new("National Geographic", "Science")
 
 # articles
 article1 = Article.new(author1, magazine1, "taifa leo")
-article2 = Article.new(author1, magazine2, "The Future of Robotics")
-article3 = Article.new(author2, magazine2, "The Ethics of Artificial Intelligence")
-article4 = Article.new(author2, magazine3, "New Discoveries in Quantum Physics")
-article5 = Article.new(author1, magazine1, "Summer Fashion Essentials")
+article2 = Article.new(author1, magazine2, "undestanding ruby")
+article3 = Article.new(author2, magazine2, "how to be a full stack dev")
+article4 = Article.new(author2, magazine3, "workind in tech")
+article5 = Article.new(author1, magazine1, "fundamentals of programming")
 
 # test methods - use puts statement to print out the results of the methods
 puts author3
